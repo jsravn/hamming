@@ -1,4 +1,4 @@
-package jsravn.hamming;
+package com.jsravn.hamming;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ExecutorService;
