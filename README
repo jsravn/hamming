@@ -1,0 +1,25 @@
+		  Threaded Hamming Number Sequence Generator
+
+			  Copyright 2009 James Ravn
+
+Introduction
+------------
+
+This is an exercise in building a multithreaded machine for generating hamming
+numbers. The hamming number sequence can be generated efficiently using
+threads, following Djisktra's algorithm.
+
+Running
+-------
+
+	ant compile
+	cd build/classes
+	java com.jsravn.hamming.Main
+
+This will generate the first 60 numbers in the sequence. Feel free to modify
+Main.java to change this.
+
+Contact
+-------
+
+E-mail james.ravn@gmail.com for any bugs, comments, questions, or otherwise.
